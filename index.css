@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    width: 550px;
+    color: white;
+    background-color: #121212;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Typeography*/
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42.7947px;
+    line-height: 24px;
+    letter-spacing: -0.045em;
+}
+a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/*header*/
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background-image: url("images/cinema.png");
+    height: 208px;
+    display: flex;
+}
+/*nav*/
+.nav{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+}
+input#input{
+    border: none;
+    border-radius: 5px 0 0 5px;;
+    margin-right: 0;
+    background-color: #2E2E2F;
+    color: #A5A5A5;
+    align-self: center;
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+button#search{
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #4B4B4B;
+    color: white;
+    margin-left: 0;
+    align-self: center;
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/*movie section*/
+
+img.cover{
+    width: 99px;
+    height: 147.41px;
+    margin-right: 21px;
+}
+main section{
+    display: flex;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.text *{
+    margin-top: 0;
+}
+.row1{
+    display: flex;
+    align-items: baseline;
+}
+.row2{
+    display: flex;
+    align-items: baseline;
+}
+.row3{
+    display: flex;
+}
+
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+.rating,.length,.genres{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 16px;
+}
+.rating{
+    margin-left: 10px;
+}
+button.add-watchlist{
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+.description{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A5A5A5;
+}
+hr{
+    border: 1px solid #2C2C2C;
+    background-color: #2C2C2C;
+    margin-top: 21px;
+    margin-bottom: 25px;
+}
+.yellow{
+    color: gold;
+}
